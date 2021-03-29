@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+<title>🏙️ Analyse de fichier de mise à jour des locaux </title>
+<link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/main.css" >
+<script src="assets/js/papaparse.min.js" ></script>
+<script src="assets/js/main.js" ></script>
+</head>
+<body>
+<div id="content">
+<form action='#' onsubmit="" id="drop">
+<input type='file' id='file'>
+<button id='btnLoad' value='Load' class="btn">Analyser</button>
+</form>
+<div id="result"></div>
+<script>
+var submit_button = document.getElementById('btnLoad');
+submit_button.addEventListener('click', parse_array);
+</script>
+</div>
+<footer><p>Made with <i class="em em-heartpulse" aria-role="presentation" aria-label="GROWING HEART"></i> and javascript by <a href="https://www.twitter.com/nbirckel">Nicolas Birckel</a></p></footer>
+</body>
+</html>

@@ -1,0 +1,75 @@
+/*https://coolors.co/e63946-f1faee-a8dadc-457b9d-1d3557*/
+*{
+	 box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+	background:#A8DADC;
+	color:#1D3557;
+}
+h1 {
+	font-size:3em;
+	text-align:center;
+}
+#content{
+	width:95vw;
+	min-height:90vh;
+	margin: 2.5vh auto;
+	display:flex;
+	//justify-content: center;
+	flex-direction:column;
+	background:#fafafa;
+	box-shadow: 3px 2px 20px -2px rgba(29,53,87,.25);
+}
+#drop{
+	display:flex;
+	justify-content: center;
+	text-align:center;
+	align-items: center;
+	min-height:200px;
+}
+nav {
+	display: flex;
+    background: #fafafa;
+    margin: 2em;
+    position: fixed;
+    top: 0;
+    right: 0;
+    flex-direction: column;}
+nav a, nav a:visited, nav a:hover {
+	text-decoration:none;
+	font-weight:600;
+	color:#457B9D;
+}
+	
+.btn {
+	min-width:100px;
+	height:25px;
+	background:#457B9D;
+	color:#fafafa;
+	appearance:none;
+	border:none;
+	border-radius:2px;
+}
+#btnLoad:hover {
+	background:#1D3557;
+}
+#result {
+	width:80vw;
+	margin:2em auto;
+}
+ul {
+margin:0;
+list-style:none;
+}
+.file-error-center {
+	text-align:center;
+}
+footer p {
+	text-align:center;
+	font-size:0.8em;
+}
+footer p a {
+	text-decoration:none;
+	color:#E63946;
+}
