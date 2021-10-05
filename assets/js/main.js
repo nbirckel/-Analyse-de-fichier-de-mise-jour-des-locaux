@@ -204,12 +204,6 @@ function doStuff(data){
 	resultats ='<h1><i class="em-svg em-scream" aria-role="presentation" aria-label="FACE SCREAMING IN FEAR"></i> </h1><h2>Résultats d\'analyse de '+file.files[0].name+'</h2>';
 	resultats +='<p>Nombre de lignes : <strong> '+newArray.length+'</strong></p>Nombre d\'erreurs : <strong> '+rensArr.length+'</strong></p></p>taux d\'erreur : <strong> '+(rensArr.length/newArray.length)*100+'%</strong></p>';
 	resultats +='<input type="button" class="btn" value="Télécharger le fichier CSV des erreurs" onclick="downloadCSV()">'
-	#resultats +='<nav>';
-	#if(list_type_undef !== ''){resultats +='<a href="#typo">typologie</a>'};
-	#if(list_usage_undef !== ''){resultats +='<a href="#usage">usage</a>'};
-	#if(list_capa_undef !== ''){resultats +='<a href="#capa">Capacité</a>'};
-	#if(list_couple_error !== ''){resultats +='<a href="#couple">Couple typo/usage</a>'};
-	#resultats+='</nav>';
 	if(list_type_undef !== ''){
 	resultats +='<h3 id="typo">Erreur(s) de typologie non défini :</h3>';
 	resultats +='<ul>'+list_type_undef+'</ul>';};
